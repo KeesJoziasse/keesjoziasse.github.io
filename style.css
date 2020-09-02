@@ -55,6 +55,7 @@ ul {
   
   li {
     float: left;
+    color: #5294e2;
   }
   
   li a {
@@ -67,6 +68,7 @@ ul {
   
   li a:hover:not(.active) {
     background-color: #111;
+    transform:scale(1.5);
   }
   
   .active {
