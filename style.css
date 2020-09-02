@@ -68,7 +68,7 @@ ul {
   
   li a:hover:not(.active) {
     background-color: #111;
-    transform:scale(1.5);
+    transform:scale(1.1);
   }
   
   .active {
@@ -89,6 +89,16 @@ img {
   margin-right: 5%;
   margin-left: 5%;
 }
-
+.grid >div{
+  background-color:#7c818c ;
+  padding: 1em;
+}
+.grid > div:nth-child(odd) {
+  background:#ddd;
+}
+.grid {
+  display: grid;
+  
+}
 
 
