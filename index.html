@@ -17,15 +17,32 @@
            <li><a href="profile.html">Profile page</a></li>
            <li><a href="dashboard.html">Personal dashboard</a></li>
            <li><a href="faq.html">Frequently Asked Questions</a></li>
+       
        </ul>
-       <hr>
-       <ul style="list-style-type: circle;"></ul>
-           <li style="color: #5294E2; font-size:50px;">Why do I think the HBO level suits me?</li>
-           <br>
-           <br>
-           <br>
-           <li style="color: #5294E2; font-size:50px;">Why do I think the study programme suits my personality?</li>
-       </ul>
-        </div>
+       <br>
+       <button class="accordion"><p style="font-size:18px;">Why do I think the HBO level suits me?</p></button>
+       <div class="panel"><p style="font-size: 20px;">I think the HBO level suits me, because for me the way theory and practice come together is the best way to learn anything. By letting students figure it out themselves HZ really shows you whether this is the right education for you in my opinion. <br> <br> Besides that, I spent two extra years in high school to get my havo degree in order to go straight to HBO.</p></div>
+
+       <button class="accordion"><p style="font-size:18px;"> Why does the study programme suit my personality?</p></button>
+       <div class="panel"><p style="font-size:20px;">I think the study programme suits my personality, because in the last few years my personality changed from a "people-person" to more interested in technology and its constant changes. This caused me to quit my education at Hogeschool Rotterdam to become a English teacher and switch to this education at HZ.</p></div>
+    
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+        </script>
+        
+    </div>
     </body>
 </html>
