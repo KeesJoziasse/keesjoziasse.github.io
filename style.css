@@ -8,6 +8,9 @@ color: #5294e2;
 font-size: 25px;
 font-family: sans-serif;
 }
+.h1 {
+  font-size: 25px;
+}
 
 .header img {
   float: right;
@@ -86,6 +89,14 @@ ul {
   li a:hover:not(.active) {
     background-color: #111;
     transform:scale(1.1);
+    animation-name: background-color;
+    animation-duration: 1000ms;
+  }
+
+  @keyframes background-color {
+    100% {
+      background-color: #5294e2;
+    }
   }
   
   .active {
@@ -117,6 +128,7 @@ img {
   display: grid;
   
 }
+
 .accordion {
   background-color: #eee;
   color: #444;
@@ -142,5 +154,12 @@ img {
   overflow: hidden;
 }
 
-
+#triangle-right {
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 50px solid #5294e2;
+  border-bottom: 25px solid transparent;
+  
+}
 
