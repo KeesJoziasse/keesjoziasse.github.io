@@ -90,7 +90,7 @@ ul {
     background-color: #111;
     transform:scale(1.1);
     animation-name: background-color;
-    animation-duration: 1000ms;
+    animation-duration: 5000ms;
   }
 
   @keyframes background-color {
