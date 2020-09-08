@@ -104,8 +104,8 @@ ul {
   }
 
 img {
-  width: 280px;
-  height: 380px;
+  width: 270px;
+  height: 350px;
 }
 
 .bio {
@@ -256,3 +256,5 @@ tr:nth-child(even) {
   top: 50px;
   font-size: 25px;
 }
+
+
