@@ -250,6 +250,9 @@ tr:nth-child(even) {
   padding: 10px;
 }
 
-.bio_profiel {
-  background-color: #383c4a;
+.karakter {
+  position: absolute;
+  left:40px;
+  top: 50px;
+  font-size: 25px;
 }
