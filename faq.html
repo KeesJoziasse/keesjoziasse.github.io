@@ -19,6 +19,9 @@
           <li><a href="motivation.html">Mijn motivatie</a></li>
         </ul>
         <br>
+
+<!--Veelgestelde vragen-->
+
     <button class="accordion"><p style="font-size:18px">1. Hoe print je een document van je laptop?</p></button>
 <div class="panel">
   <p style="font-size:18px;"> Je kunt een document printen d.m.v. met je schoolpas in te loggen bij één van de printers en zo je gekozen document te printen.</p>
@@ -52,6 +55,9 @@
     <div class="panel">
         <p style="font-size:18px;">Er zijn genoeg mogelijkheden om je handen te dysinfecteren op de HZ. Zo zijn er bij de hoofdingang, voor de lokalen én in de lokalen dysinfectiemiddelen aanwezig. De laatste is om je werkplek schoon te maken wanneer je er klaar bent.</p>
     </div>
+
+
+<!--JavaScript menu-->
 <script>
     var acc = document.getElementsByClassName("accordion");
     var i;
@@ -59,7 +65,7 @@
     for (i = 0; i < acc.length; i++) {
       acc[i].addEventListener("click", function() {
         this.classList.toggle("active");
-        var panel = this.nextElementSibling;
+        let panel = this.nextElementSibling;
         if (panel.style.display === "block") {
           panel.style.display = "none";
         } else {

@@ -250,6 +250,96 @@ tr:nth-child(even) {
   padding: 10px;
 }
 
+.theory {
+  background-color: #7c818c;
+  font-family: sans-serif;
+  width: 600px;
+  text-align: center;
+  margin: auto;
+  background-color: #7c818c;
+  background: linear-gradient(to right #7c818c 15%, #FFF 85%);
+}
 
+.DanPink {
+  background-color: #7c818c;
+  font-family: sans-serif;
+  width: 500px;
+  text-align: center;
+  float: left;
+}
 
+.cover {
+  height: 200px; 
+  width: 200px; 
+  margin-left: 100px;
+}
 
+.album {
+  height: 200px; 
+  width: 200px; 
+  margin-left: 110px;
+}
+
+.serie {
+  height: 300px; 
+  width: 200px; 
+  margin-left: 100px;
+}
+
+.movie {
+  height: 300px;
+  width: 200px; 
+  margin-left: 110px;
+}
+
+.drumstel {
+  margin-left: 730px; 
+  margin-top: -190px; 
+  position: absolute; 
+  height: 250px; 
+  border-radius: 8px; 
+  border: 3px solid #5294e2;
+}
+
+.gitaar {
+  height: 250px; 
+  margin-left: 1010px; 
+  width: 100px; 
+  margin-top:-190px; 
+  position:absolute; 
+  border-radius: 8px; 
+  border: solid #5294e2;
+}
+
+.basgitaar {
+  height: 250px; 
+  margin-top: -190px; 
+  position:absolute; 
+  margin-left: 1120px; 
+  width: 100px; 
+  border-radius: 8px; 
+  border: solid #5294e2;
+}
+
+.keyboard{
+  height: 250px; 
+  margin-top: -190px; 
+  position:absolute; 
+  margin-left: 1230px; 
+  width: 100px; 
+  border-radius: 8px; 
+  border: solid #5294e2;
+}
+
+.motivation-text {
+  font-size: 18px;
+}
+
+#bronvermelding {
+  height: 300px;
+  width: 450px;
+  background-color: white;
+  margin: auto;
+  text-align: center;
+  border: 1px solid black;
+}

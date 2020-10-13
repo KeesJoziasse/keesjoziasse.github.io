@@ -10,24 +10,33 @@
         <div class="header">
             <img src="images/schoollogo.jpg.jpg" alt="logo HZ">
             <h1>Kees Joziasse</h1>
-            
-
         </div>
+       
+        <!--Menu-->
+        
        <ul>
            <li><a href="index.html">Introductie</a></li>
            <li><a href="profile.html">Profielpagina</a></li>
            <li><a href="dashboard.html">Persoonlijk dashboard</a></li>
            <li><a href="faq.html">Veelgestelde vragen</a></li>
            <li><a href="motivation.html">Mijn motivatie</a></li>
-       
-       </ul>
+        </ul>
        <br>
+       
+       
        <button class="accordion"><p style="font-size:18px;">Waarom vind ik dat het HBO-niveau bij mij past?</p></button>
-       <div class="panel"><p style="font-size: 20px;">Ik denk dat het HBO-niveau bij mij past, omdat de manier waarop theorie en praktijk samenkomen voor mij persoonlijk de beste manier is om iets te leren. Ik vind de aanpak van HZ dan ook fijn, omdat je als student snel genoeg weet of de opleiding iets voor je is of niet. </p></div>
+       <div class="panel"><p style="font-size: 20px;">Ik denk dat het HBO-niveau bij mij past, 
+        omdat de manier waarop theorie en praktijk samenkomen voor mij persoonlijk de beste manier is om iets te leren. 
+        Ik vind de aanpak van HZ dan ook fijn, omdat je als student snel genoeg weet of de opleiding iets voor je is of niet. </p></div>
 
        <button class="accordion"><p style="font-size:18px ;"> Waarom past de opleiding bij mijn persoonlijkheid?</p></button>
-       <div class="panel"><p style="font-size:20px;">Ik denk dat de opleiding bij mijn persoonlijkheid past, omdat zoals ik zelf nogal ben veranderd van mensen-mens naar iemand die nieuwsgierig is naar veranderingen binnen technologie en graag wil weten hoe alles werkt. Dit heeft er onder andere voor gezorgd dat ik tijdens de coronatijd begonnen ben met programmeren in HTML en CSS en me later heb aangemeld voor deze opleiding. </p></div>
-       <br><br><br>
+       <div class="panel"><p style="font-size:20px;">Ik denk dat de opleiding bij mijn persoonlijkheid past, 
+        omdat zoals ik zelf nogal ben veranderd van mensen-mens naar iemand die nieuwsgierig is naar 
+        veranderingen binnen technologie en graag wil weten hoe alles werkt. 
+        Dit heeft er onder andere voor gezorgd dat ik tijdens de coronatijd begonnen ben met programmeren
+        in HTML en CSS en me later heb aangemeld voor deze opleiding. </p></div>
+       
+        <br><br><br>
 
        <div class="header-four">
          <h2>Middelbare school tot nu</h2>
@@ -38,13 +47,13 @@
     <img src="images/superbru.jpg" style="width: 200px; height: 200px; margin-left: 200px; border-radius: 40%;">
     <img src="images/schoollogo.jpg.jpg" style="width: 200px; height: 200px; margin-left: 200px; border-radius: 40%;">
     <script>
-        var acc = document.getElementsByClassName("accordion");
-        var i;
+        let acc = document.getElementsByClassName("accordion");
+        let i;
         
         for (i = 0; i < acc.length; i++) {
           acc[i].addEventListener("click", function() {
             this.classList.toggle("active");
-            var panel = this.nextElementSibling;
+            let panel = this.nextElementSibling;
             if (panel.style.display === "block") {
               panel.style.display = "none";
             } else {
