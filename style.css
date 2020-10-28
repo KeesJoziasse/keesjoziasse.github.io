@@ -359,49 +359,13 @@ tr:nth-child(even) {
 
 
 
-.companies-panel-ysp {
-  padding: 0 18px;
-  background-color: white;
-  display: none;
-  overflow: hidden;
-  width:232px;
-  margin-left: 70px;
-}
-
 .companies-panel {
   padding: 0 18px;
   background-color: white;
   display: none;
   overflow: hidden;
-  width:232px;
-  margin-left: 40px;
-}
-
-.companies-panel {
-  padding: 0 18px;
-  background-color: white;
-  display: none;
-  overflow: hidden;
-  width:232px;
-  margin-left: 0px;
-}
-
-.companies-panel {
-  padding: 0 18px;
-  background-color: white;
-  display: none;
-  overflow: hidden;
-  width:232px;
-  margin-left: 0px;
-}
-
-.companies-panel {
-  padding: 0 18px;
-  background-color: white;
-  display: none;
-  overflow: hidden;
-  width:227px;
-  margin-left: 0px;
+  width: 250px;
+  margin-left: 450px;
 }
 
 .active, .companies:hover {
