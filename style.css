@@ -356,3 +356,7 @@ tr:nth-child(even) {
   transition: 0.4s;
   margin-left: 75px;
 }
+
+.active, .companies:hover {
+  background-color: #ccc;
+}
