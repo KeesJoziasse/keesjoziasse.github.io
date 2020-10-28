@@ -343,3 +343,9 @@ tr:nth-child(even) {
   text-align: center;
   border: 1px solid black;
 }
+
+.companies {
+  background-color: #eee;
+  color: #444;
+  width: 30px;
+}
