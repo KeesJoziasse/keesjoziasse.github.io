@@ -410,5 +410,5 @@ tr:nth-child(even) {
 
 #charts {
   width: 500px;
-  margin: auto;
+  margin-left: 700px;
 }
