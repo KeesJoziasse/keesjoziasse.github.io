@@ -362,7 +362,7 @@ tr:nth-child(even) {
   background-color: white;
   display: none;
   overflow: hidden;
-  width:250px;
+  width:232px;
   margin-left: 0px;
 }
 .active, .companies:hover {
