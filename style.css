@@ -347,11 +347,12 @@ tr:nth-child(even) {
 .companies {
   background-color: #eee;
   color: #444;
-  width: 30px;
+  width: 250px;
   cursor: pointer;
   padding: 18px;
-  text-align: left;
+  text-align: center;
   border: none;
   outline: none;
   transition: 0.4s;
+  margin-left: 75px;
 }
