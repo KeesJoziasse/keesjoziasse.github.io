@@ -360,3 +360,7 @@ tr:nth-child(even) {
 .active, .companies:hover {
   background-color: #ccc;
 }
+
+#charts {
+  
+}
