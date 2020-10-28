@@ -363,7 +363,7 @@ tr:nth-child(even) {
   display: none;
   overflow: hidden;
   width:250px;
-  margin-left: 40px;
+  margin-left: 0px;
 }
 .active, .companies:hover {
   background-color: #ccc;
