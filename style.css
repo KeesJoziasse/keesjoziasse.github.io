@@ -362,5 +362,6 @@ tr:nth-child(even) {
 }
 
 #charts {
-  
+  width: 200px;
+  margin: auto;
 }
