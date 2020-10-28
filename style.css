@@ -357,12 +357,13 @@ tr:nth-child(even) {
   margin-left: 75px;
 }
 
-.companies-panel {
+.yourSurprise {
   padding: 0 18px;
   background-color: white;
   display: none;
   overflow: hidden;
   width:250px;
+  margin-left: 40px;
 }
 .active, .companies:hover {
   background-color: #ccc;
